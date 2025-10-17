@@ -11,7 +11,7 @@ function isMobile() {
 // Register button
 registerBtn.addEventListener("click", () => {
     if (isMobile()) {
-        document.querySelector(".form-box.login").style.display = "none";
+         document.querySelector(".form-box.login").style.display = "none";
         document.querySelector(".form-box.register").style.display = "block"; // fixed typo
     } else {
         container.classList.add("active");
