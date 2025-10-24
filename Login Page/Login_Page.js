@@ -7,7 +7,7 @@ const loginBtn = document.querySelector(".login-btn");       // login button
 function isMobile() {
     return window.innerWidth <= 768; // breakpoint for mobile
 }
-
+ 
 // Register button
 registerBtn.addEventListener("click", () => {
     if (isMobile()) {
@@ -43,3 +43,4 @@ function adjustView() {
 }
 window.addEventListener("resize", adjustView);
 window.addEventListener("load", adjustView);
+
