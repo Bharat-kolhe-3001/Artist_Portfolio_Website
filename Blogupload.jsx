@@ -9,7 +9,7 @@ const BlogUpload = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (!image || !shortDesc || !longDesc) {
+    if (!image || !shortDesc || !longDesc) { 
       alert("⚠️ Please fill all fields before submitting!");
       return;
     }
@@ -118,3 +118,4 @@ const BlogUpload = () => {
 };
 
 export default BlogUpload;
+
