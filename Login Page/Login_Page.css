@@ -67,7 +67,7 @@ body {
 .container.active .form-box.register {
     display: flex; /* visible when active */
 }
-
+/*Input Box*/
 .input-box {
     position: relative;
     margin: 20px 0;
@@ -249,3 +249,4 @@ body {
         padding: 8px;
     }
 }
+
